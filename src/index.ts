@@ -8,8 +8,7 @@
  */
 
 export default function main(): void {
-  console.log('Agent Orchestrator CLI');
-  console.log('Ready to build amazing things!');
+  console.log('Hello World 🌍');
 }
 
 // Run main if executed directly
