@@ -1,0 +1,12 @@
+[test]
+# Load setup file before running tests
+preload = ["./tests/setup.ts"]
+
+# Enable coverage collection
+coverage = true
+
+# Test timeout in milliseconds
+timeout = 5000
+
+# Snapshot directory
+snapshotDir = "./tests/snapshots"
