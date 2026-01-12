@@ -1,0 +1,30 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`Message Component Snapshots user message snapshot 1`] = `
+"
+ ▌ User message content
+
+"
+`;
+
+exports[`Message Component Snapshots assistant message snapshot 1`] = `
+"
+ ▌ Assistant message content
+
+"
+`;
+
+exports[`Message Component Snapshots system message snapshot 1`] = `
+"
+ ▌ System message content
+
+"
+`;
+
+exports[`Message Component Snapshots message with timestamp snapshot 1`] = `
+"
+ ▌ Message with time
+
+   12:00
+"
+`;

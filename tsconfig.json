@@ -4,7 +4,7 @@
     "module": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "bundler",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "jsxImportSource": "react",
     "allowImportingTsExtensions": true,
     "strict": true,
@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "types": ["bun-types"]
   },
   "include": ["src/**/*", "tests/**/*"],

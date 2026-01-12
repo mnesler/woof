@@ -1,0 +1,17 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`MainMenu Component renders initial state snapshot 1`] = `
+"                                           ❯  Connect
+                                             Switch Model
+                                             Exit
+
+                               ↑↓ navigate · enter select · esc close"
+`;
+
+exports[`MainMenu Component snapshot after navigating to second item 1`] = `
+"                                            Connect
+                                          ❯  Switch Model
+                                            Exit
+
+                               ↑↓ navigate · enter select · esc close"
+`;

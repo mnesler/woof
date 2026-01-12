@@ -7,11 +7,14 @@
  * Supports Anthropic and GitHub Copilot providers.
  */
 
+import React from 'react';
+import { render } from 'ink';
+import { App } from './components';
+
 export default function main(): void {
-  console.log('Hello World 🌍');
+  render(<App />);
 }
 
-// Run main if executed directly
 if (import.meta.main) {
   main();
 }

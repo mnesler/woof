@@ -1,0 +1,55 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`CLI App renders initial state snapshot 1`] = `
+"
+
+
+
+
+
+
+
+
+
+                                      Start a conversation...
+
+
+
+
+
+
+
+
+
+
+
+   ❯ Type a message...
+                                                                                      claude-sonnet"
+`;
+
+exports[`CLI App renders loading state snapshot 1`] = `
+"
+
+
+
+
+
+
+
+
+
+                                      Start a conversation...
+
+
+
+
+
+
+
+
+
+
+
+   ❯ Type a message...
+                                                                                      claude-sonnet"
+`;
