@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "forddocs": {
+      "type": "local",
+      "command": ["bun", "run", "./mcp-server/src/index.ts"],
+      "enabled": true,
+      "environment": {
+        "GITHUB_TOKEN": "{env:GITHUB_TOKEN}"
+      }
+    }
+  },
+  "tools": {
+    "forddocs_*": true
+  }
+}
