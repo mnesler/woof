@@ -3,6 +3,7 @@
   "agent": {
     "ford-infra": {
       "description": "Ford Motor Company infrastructure engineer for GCP/Terraform",
+      "mode": "primary",
       "model": "anthropic/claude-sonnet-4-20250514",
       "temperature": 0.2,
       "prompt": "{file:./.opencode/prompts/ford-infra.md}",
