@@ -1,5 +1,16 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "ford-infra": {
+      "description": "Ford Motor Company infrastructure engineer for GCP/Terraform",
+      "model": "anthropic/claude-sonnet-4-20250514",
+      "temperature": 0.2,
+      "prompt": "{file:./.opencode/prompts/ford-infra.md}",
+      "tools": {
+        "forddocs_*": true
+      }
+    }
+  },
   "mcp": {
     "forddocs": {
       "type": "local",
